@@ -20,6 +20,7 @@ You can add MSwiftUINavigator to your Swift package by adding it as a dependency
 dependencies: [
     .package(url: "https://github.com/MahmoudAbdelshafi/MSwiftUINavigator.git", .branch("main"))
 ],
+```
 
 ## Usage
 
