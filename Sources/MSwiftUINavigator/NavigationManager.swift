@@ -17,9 +17,9 @@ public protocol Navigator: View {
 
 // MARK: - Shared value-
 
-extension Navigator {
+public extension Navigator {
     /// The shared instance of the `NavigationManager`.
-    public var navigator: NavigationManager {
+    var navigator: NavigationManager {
         return NavigationManager.shared
     }
 }
