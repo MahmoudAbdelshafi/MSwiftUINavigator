@@ -24,12 +24,12 @@ public extension Navigator {
     }
 }
 
-public extension EnvironmentValues {
-    /// The shared instance of the `NavigationManager`.
-    var navigator: NavigationManager {
-        return NavigationManager.shared
-    }
-}
+//public extension EnvironmentValues {
+//    /// The shared instance of the `NavigationManager`.
+//    var navigator: NavigationManager {
+//        return NavigationManager.shared
+//    }
+//}
 
 // MARK: - Enum PopPositionType -
 
