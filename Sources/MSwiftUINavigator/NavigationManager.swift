@@ -24,9 +24,9 @@ extension Navigator {
     }
 }
 
-extension EnvironmentValues {
+public extension   {
     /// The shared instance of the `NavigationManager`.
-    public var navigator: NavigationManager {
+    var navigator: NavigationManager {
         return NavigationManager.shared
     }
 }
