@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "fittedsheets",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gordontucker/FittedSheets.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3dcebb20ff42f644e9474a198acb886d4bd51793"
+      }
+    },
+    {
+      "identity" : "mswiftuinavigator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MahmoudAbdelshafi/MSwiftUINavigator",
+      "state" : {
+        "branch" : "main",
+        "revision" : "6f4446bbf06ba8b1df9cefc46bf2a5dfbe529f3e"
+      }
+    }
+  ],
+  "version" : 2
+}
