@@ -5,6 +5,7 @@
 <p align="center">
 <a href="https://swift.org/package-manager/"><img src="https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat"></a>
 <a href="https://raw.githubusercontent.com/onevcat/Kingfisher/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-black"></a>
+<a href="http://www.apple.com/ios/"><img src="https://img.shields.io/badge/Platforms-iOS-lightgray.svg?style=flat"></a>
 </p>
 
 
