@@ -20,6 +20,7 @@ MSwiftUINavigator is a Swift package that provides a navigation solution for Swi
 - Present sheets with customizable sizes using the FittedSheets library.
 - Present dialogs and action sheets above the current view.
 - Pop to a specific view type in the navigation stack.
+- Present dialogs and action sheets above the current view, with options for customizations.
 
 ## Installation
 
@@ -55,6 +56,39 @@ navigator.pushView {
     // Your view code here
 }
 
+```
+
+For singleton access to the NavigationManager, you can use the shared instance like this:
+
+```swift
+
+NavigationManager.shared.presentView(transitionStyle: .coverVertical,
+                                      presentStyle: .fullScreen,
+                                      animated: true) {
+                // Your View here
+}
+
+```
+
+
+To present an action sheet, you can use the `presentActionSheet` function provided by MSwiftUINavigator:
+
+```swift
+navigator.presentActionSheet {
+    ActionSheet(
+        title: Text("Choose an action"),
+        message: Text("What would you like to do?"),
+        buttons: [
+            .default(Text("Option 1")) {
+                // Handle option 1
+            },
+            .default(Text("Option 2")) {
+                // Handle option 2
+            },
+            .cancel()
+        ]
+    )
+}
 ```
 
 ## Dependencies

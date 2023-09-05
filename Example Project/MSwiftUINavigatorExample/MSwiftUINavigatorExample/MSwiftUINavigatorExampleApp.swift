@@ -9,7 +9,6 @@ import SwiftUI
 
 @main
 struct MSwiftUINavigatorExampleApp: App {
-    @Environment(\.navigator) var navigator
     
     var body: some Scene {
         WindowGroup {

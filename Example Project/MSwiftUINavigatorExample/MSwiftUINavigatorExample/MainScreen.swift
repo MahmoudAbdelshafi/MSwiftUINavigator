@@ -21,9 +21,22 @@ struct MainScreen: View {
             }
             .bold()
             
+            
+            
+            
+            NavigationManager.shared.presentView(transitionStyle: .coverVertical,
+                                                 presentStyle: .fullScreen,
+                                                 animated: true) {
+                // Your View here
+            }
+            
+            
+            
             Button("Pesent View") {
-                navigator.presentView {
-                    SecondScreen()
+                navigator.presentView(presentStyle: .overFullScreen) {
+                    NavigationView {
+                        SecondScreen()
+                    }
                 }
             }
             .bold()
