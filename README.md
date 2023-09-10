@@ -58,19 +58,6 @@ navigator.pushView {
 
 ```
 
-For singleton access to the NavigationManager, you can use the shared instance like this:
-
-```swift
-
-NavigationManager.shared.presentView(transitionStyle: .coverVertical,
-                                      presentStyle: .fullScreen,
-                                      animated: true) {
-                // Your View here
-}
-
-```
-
-
 To present an action sheet, you can use the `presentActionSheet` function provided by MSwiftUINavigator:
 
 ```swift
@@ -89,6 +76,18 @@ navigator.presentActionSheet {
         ]
     )
 }
+```
+
+For singleton access to the NavigationManager, you can use the shared instance like this:
+
+```swift
+
+NavigationManager.shared.presentView(transitionStyle: .coverVertical,
+                                      presentStyle: .fullScreen,
+                                      animated: true) {
+                // Your View here
+}
+
 ```
 
 ## Dependencies
