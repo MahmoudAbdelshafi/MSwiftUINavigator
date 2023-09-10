@@ -90,6 +90,8 @@ NavigationManager.shared.presentView(transitionStyle: .coverVertical,
 
 ```
 
+There's also an example project available on GitHub for reference: [MSwiftUINavigatorExample](https://github.com/MahmoudAbdelshafi/MSwiftUINavigatorExample).
+
 ## Dependencies
 
 MSwiftUINavigator relies on the following external dependency to enhance its functionality, particularly for handling popups, sheets, and dialogs:
