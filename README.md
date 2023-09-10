@@ -105,10 +105,10 @@ This package is released under the MIT License.
 ## Author
 
 - **Mahmoud Abdelshafi**
-  - GitHub: [github.com/MahmoudAbdelshafi](https://github.com/MahmoudAbdelshafi)
-  - LinkedIn: [linkedin.com/in/mahmoud-abd-el-shafi](https://www.linkedin.com/in/mahmoud-abd-el-shafi/)
+  - [GitHub](https://github.com/MahmoudAbdelshafi)
+  - [LinkedIn](https://www.linkedin.com/in/mahmoud-abd-el-shafi/)
 
 
 - **Soliman El Far**
-  - GitHub: [github.com/aoliman](https://github.com/aoliman)
-  - LinkedIn: [linkedin.com/in/soliman-yousry-74050a155/](https://www.linkedin.com/in/soliman-yousry-74050a155/)
+  - [GitHub](https://github.com/aoliman)
+  - [LinkedIn](https://www.linkedin.com/in/soliman-yousry-74050a155/)
