@@ -112,10 +112,32 @@ public struct NavigationManager {
             return
         }
         guard let navigation = topViewController.navigationController else {
-            topViewController.dismiss(animated: animated ?? true)
+            topViewController.dismiss(animated: animated ?? true,
+                                      completion: completion)
             return
         }
         navigation.popViewController(animated: animated ?? true)
+        completion?()
+    }
+    
+    /// Pops (removes) the top view controller from the current navigation stack.
+    ///
+    /// - Parameters:
+    ///   - animated: Optional. Whether to animate the pop transition. Default is true.
+    ///   - completion: Optional. A closure to be called upon completion of the pop transition.
+    public func popView(animated: Bool? = nil,
+                        completion: (() -> Void)? = nil) {
+        // Ensure there is a valid navigation controller
+        guard let topNavigation = NavigationManager.getCurrentNavigationController()
+        else {
+            return
+        }
+        
+        // Pop the top view controller from the navigation stack
+        topNavigation.popViewController(animated: animated ?? true)
+        
+        // Execute the completion closure, if provided
+        completion?()
     }
     
     /// Pop to the root view.
