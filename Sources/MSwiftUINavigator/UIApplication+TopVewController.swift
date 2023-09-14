@@ -2,7 +2,8 @@
 //  UIApplication+TopVewController.swift
 //  MNavigator
 //
-//  Created by Mahmoud Abdelshafi on 01/09/2023.
+//  Created by Soliman Elfar and Mahmoud Abdelshafion 01/09/2023.
+//  All rights reserved.
 //
 
 import UIKit
